@@ -1,0 +1,92 @@
+body{
+margin: 0;
+padding: 0;
+background-color: plum;
+}
+/*h1{
+    border: solid;
+    border-color: black;
+}*/
+img{
+    width: auto;
+    height: auto;
+}
+
+.header{
+background: paleturquoise;
+color: white;
+height: 100px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+margin-bottom: 10px;
+}
+
+
+
+.aprender-piano{
+    display: flex;
+    flex-wrap: wrap;
+    border: 5px solid;
+    border-color: hotpink;
+    margin-bottom: 10px;
+}
+
+.aprender-piano img{
+    width: 50%;
+    order: 1;
+}
+
+.aprender-piano p{
+    width: 50%;
+    order: 2;
+    /*background-image: url(./descarga.jpg);
+    background-repeat: no-repeat;*/
+}
+
+.peronsal-info{
+    display: flex;
+    flex-wrap: wrap;
+    border: 5px solid;
+    border-color: hotpink;
+    margin-bottom: 10px;
+}
+
+.peronsal-info img{
+    width: 50%;
+    order: 2;
+}
+
+.peronsal-info p{
+    width: 50%;
+    order: 1;
+    /*background-image: url(./descarga.jpg);
+    background-repeat: no-repeat;*/
+}
+
+.mejorar-programacion{
+    display: flex;
+    flex-wrap: wrap;
+    border: 5px solid;
+    border-color: hotpink;
+    margin-bottom: 10px;
+}
+
+.mejorar-programacion img{
+    width: 50%;
+    height: 500px;
+    order: 2;
+}
+
+.mejorar-programacion p{
+    width: 50%;
+    order: 1;
+    /*background-image: url(./descarga.jpg);
+    background-repeat: no-repeat;*/
+}
+
+.carousel-item img{
+    width: 50px;
+    height: 800px;
+   }
